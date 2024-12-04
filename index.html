@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Restaurant Menu</h1>
+  </header>
+
+  <div class="categories">
+    <button class="category-button" onclick="showMenu('breakfast')">Breakfast</button>
+    <button class="category-button" onclick="showMenu('lunch')">Lunch</button>
+    <button class="category-button" onclick="showMenu('dinner')">Dinner</button>
+    <button class="category-button" onclick="showMenu('drinks')">Drinks</button>
+  </div>
+
+  <div class="menu-container" id="menu-container">
+    <p class="placeholder">Select a category to view the menu.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
